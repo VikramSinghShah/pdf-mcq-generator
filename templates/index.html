@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>
+PDF MCQ Generator
+</title>
+
+<link
+rel="stylesheet"
+href="/static/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>
+PDF MCQ Generator
+</h1>
+
+<input
+type="file"
+multiple
+id="pdfs"
+accept=".pdf">
+
+<button
+onclick="uploadPDFs()">
+
+Upload PDFs
+
+</button>
+
+<hr>
+
+<div id="quiz">
+
+</div>
+
+<div class="buttons">
+
+<button onclick="previous()">
+Previous
+</button>
+
+<button onclick="next()">
+Next
+</button>
+
+</div>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
